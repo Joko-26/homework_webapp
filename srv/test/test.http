@@ -1,0 +1,65 @@
+
+#delete
+###
+DELETE  http://localhost:4004/browse/Homeworks(1)
+Content-Type: application/json
+
+#submit
+###
+POST http://localhost:4004/browse/submitHomework
+Content-Type: application/json
+
+{
+    "ID":3,
+    "daysleft":3
+}
+
+#Homeworks
+###
+POST http://localhost:4004/localhost:4004/localhost:4004/browse/Homeworks
+Content-Type: application/json
+
+{
+    "ID":4,
+    "status":" ",
+    "date":5,
+    "class":"6b",
+    "teacher":"Röser",
+    "subject":"chemistry",
+    "daysleft":3
+}
+
+#Tasks
+###
+POST http://localhost:4004/odata/v4/teacher/Task
+Content-Type: application/json
+
+{
+    "ID":9,
+    "owner_ID":4,
+    "page_number":23,
+    "exercise":23
+
+}
+
+#Teachers
+###
+POST http://localhost:4004/odata/v4/teacher/Teachers
+Content-Type: application/json
+
+{
+    "ID":6,
+    "name":"Bernd",
+    "subjects":"German"
+}
+
+#Classes
+###
+POST http://localhost:4004/odata/v4/teacher/Classes
+Content-Type: application/json
+
+{
+    "ID":6,
+    "owner_ID":7,
+    "name":"3b"
+}
