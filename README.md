@@ -2,7 +2,7 @@
 
 Welcome to your new project.
 
-## follow the get started guide to get started at https://cap.cloud.sap/docs/get-started/.
+## Follow the get started guide to get started at https://cap.cloud.sap/docs/get-started/.
 
 It contains these folders and files, following our recommended project layout:
 
